@@ -11,7 +11,8 @@ h1, h2, h3, h4, a, p, span{
 .subtitle {
     color: white;
 }
-header {
+/* SHOPAPP=== */
+.header-shopapp {
     height: 500px;
     background-image: url('https://inscoder.com/wp-content/uploads/2017/10/Shopify-Apps.jpg');
     background-size: cover;
@@ -68,5 +69,25 @@ header {
     padding: 0;
 }
 .columns.columns-footer {
-    padding: 50px;
+    padding: 90px;
+}
+
+/* PAYPAL==== */
+.header-paypal {
+    height: 500px;
+    background-image: url('https://inscoder.com/wp-content/uploads/2017/10/Hide-Paypal-in-Cart-Shopify-App.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.section .container > .title {
+    color: black;
+}
+.section .container > .subtitle{
+    color: black;
+}
+.section .container > p {
+    color: black;
+}
+.button-paypal {
+    text-align: center;
 }
