@@ -33,8 +33,14 @@ h1, h2, h3, h4, a, p, span{
         padding: 100px 0;
         height: 100vh;
         text-align: center;
+        background-color: rgba(20,30,40,.98);
+        box-shadow: 0 8px 16px rgba(10,10,10,.1)
+    }
+    .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+        background-color: transparent;
     }
 }
+
 .title.is-1 {
     text-align: center;
     margin-top: 200px;
