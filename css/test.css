@@ -97,3 +97,49 @@ h1, h2, h3, h4, a, p, span{
 .button-paypal {
     text-align: center;
 }
+/* how shopipy === */
+.header-howshopipy {
+    height: 500px;
+    background-image: url('https://inscoder.com/wp-content/uploads/2020/09/Shopify-Plus-Hong-Kong.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.google-icon {
+    background-color: #dd4c39;
+    border: 0;
+    border-radius: 4px;
+}
+.facebook-icon {
+    background-color: #3d5a98;
+    border: 0;
+    border-radius: 4px;
+}
+.tweet-icon {
+    background-color: #09b0ed;
+    border: 0;
+    border-radius: 4px;
+}
+.in-icon {
+    background-color: #035a87;
+    border: 0;
+    border-radius: 4px;
+}
+.howshopipy-text > p {
+    color: #567;
+}
+.howshopipy-text {
+    padding: 50px;
+}
+.howshopipy-text > .input-send {
+    text-align: right;
+}
+.contact-text {
+    padding: 50px;
+}
+.contact-text > h1 {
+    color: black;
+}
+.input-send-contact > input{
+    color: white;
+    background-color: #141e28;
+}
