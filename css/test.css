@@ -23,6 +23,60 @@ h1, h2, h3, h4, a, p, span{
     font-size: 12px;
     font-weight: bold;
 }
+/* Home === */
+.hero.is-fullheight-with-navbar {
+    background-image: url('https://inscoder.com/wp-content/uploads/2017/10/cropped-shopify-development-design-hong-kong_1920.jpg');
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+}
+.hero-body {
+    margin: auto;
+}
+.icon-wg {
+    text-align: center;
+}
+.icon-wg > .column {
+    margin: 60px;
+}
+.icon-wg-red{
+    color: red;
+    margin-bottom: 30px;
+}
+.icon-wg .column > h1 {
+    color: black;
+}
+.icon-wg .column > p {
+    color: #567;
+} 
+p {
+    color: #567;
+}
+.wg-full {
+    width: 100%;
+    text-align: center;
+}
+.wg-20px {
+    width: 100px;
+    padding: 2px;
+    background-color: red;
+}
+.button-img-full {
+    margin: 50px;
+}
+.button-img {
+    margin: 20px;
+    background-color: white;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+.button-img:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.img-baner {
+    margin: 0 100px;
+}
 /* SHOPAPP=== */
 .header-shopapp {
     height: 500px;
