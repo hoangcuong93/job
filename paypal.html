@@ -103,12 +103,14 @@
     <script type="text/javascript">
         (function() {
             var burger = document.querySelector('.burger');
+            var div = document.querySelector('.navbar-brand');
             var nav = document.querySelector('#'+burger.dataset.target);
-
             burger.addEventListener('click', function(){
                 burger.classList.toggle('is-active');
                 nav.classList.toggle('is-active');
-            })
+                div.classList.toggle('is-active');
+            });
+
         })();
     </script>
 </body>
