@@ -1,6 +1,11 @@
+@font-face {
+    src:url(font/Montserrat.ttf);
+    font-family: Montserrat;
+}
 html, body {
     padding: 0;
     margin: 0;
+    font-family: Montserrat;
 }
 h1, h2, h3, h4, a, p, span{
     color: white;
@@ -13,6 +18,10 @@ h1, h2, h3, h4, a, p, span{
 }
 .is-active {
     background-color: rgba(20,30,40,.98);
+}
+.navbar-item {
+    font-size: 12px;
+    font-weight: bold;
 }
 /* SHOPAPP=== */
 .header-shopapp {
